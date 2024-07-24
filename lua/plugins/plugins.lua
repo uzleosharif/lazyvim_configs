@@ -7,4 +7,15 @@ return {
       colorscheme = "carbonfox",
     },
   },
+
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "clangd",
+        "latexindent",
+        "texlab"
+      },
+    },
+  },
 }
